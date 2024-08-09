@@ -1,0 +1,11 @@
+.multiLineEllipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 5.4rem;
+}
+
+.bstyle:hover{
+    background-color: rgb(206, 199, 199);
+}

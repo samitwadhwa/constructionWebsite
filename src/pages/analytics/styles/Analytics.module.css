@@ -1,0 +1,25 @@
+.react-grid-Cell {
+  border: none;
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.tab::after {
+  content: "";
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate();
+}
+.activeTab::after {
+  background-color: rgba(123, 147, 27, 1);
+}
